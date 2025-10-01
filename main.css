@@ -44,7 +44,7 @@ img{ max-width:100%; display:block; border-radius:12px; }
 
 .container{ width:min(1100px, 92%); margin-inline:auto; }
 .center{ text-align:center; }
-.grid-2{ display:grid; grid-template-columns: 1fr 1.1fr; gap: clamp(24px, 6vw, 56px); align-items:center; }
+.grid-2{ display:grid; grid-template-columns: 1fr 1.1fr;  gap: clamp(16px, 3vw, 32px); align-items:center; }
 .section{ padding-block: clamp(56px, 12vw, 120px); }
 .kicker{ color:var(--muted); letter-spacing:.08em; text-transform:uppercase; font-size:.95rem; }
 

@@ -68,7 +68,7 @@
     <section class="about section" id="about">
         <div class="container grid-2">
             <div class="profile-img" data-aos="fade-right" data-aos-delay="100">
-                <img src="images/me.jpg" alt="Rookaya Dokrat portrait">
+                <img src="images/me.jpeg" alt="Rookaya Dokrat portrait">
             </div>
 
             <div class="about-details" data-aos="fade-left" data-aos-delay="200">
@@ -130,7 +130,7 @@
         <div class="container">
             <div class="section-heading center">
                 <h2>Portfolio</h2>
-                <p class="kicker">Recent work</p>
+                <p class="kicker">Recent Work</p>
             </div>
 
             <div class="portfolio-item">
@@ -163,8 +163,9 @@
                         </ul>
                     </div>
 
-                    <button class="btn btn-link" expand-more data-target="showMoreContent1" data-showtext="View details" data-hidetext="View less">
-                        View details
+                    <button class="btn btn-link" expand-more data-target="showMoreContent1" 
+                            data-showtext="View details" data-hidetext="View Less">
+                        View Details
                     </button>
                 </div>
 
@@ -172,42 +173,100 @@
 
             <div class="portfolio-item">
                 <div class="portfolio-description" data-aos="fade-right">
-                    <h4>Amelgo UK</h4>
-                    <p>Luxury fragrance Shopify build migrated from WordPress. Custom Liquid theme tweaks to match brand design.</p>
-                    <div class="expandMoreContent" id="showMoreContent2">
-                        <h5>Focus</h5><p>Rapid delivery, SEO, email integration</p>
-                        <h5>Soft skills</h5>
-                        <ul><li>Client comms</li><li>Adaptability</li><li>Timeboxing</li></ul>
+                    <h4>Silks Investments — Mobile App</h4>
+                    <p>
+                        A cross-platform property investment app built with .NET MAUI, using Firebase Authentication and a Supabase
+                        backend. Designed for a client project, this build provided a clean, production-ready experience for
+                        browsing properties, reserving investments, and managing user accounts securely.
+                        Working on Silks Investments also allowed me to refine the structure and performance of my earlier
+                        <em>uniHomes</em> app—applying lessons in API integration, real-time updates, and modern UI flow.
+                    </p>
+
+                    <div class="expandMoreContent" id="showMoreContent4">
+                        <h5>Tech</h5>
+                        <p>.NET MAUI, Firebase, Supabase</p>
+
+                        <h5>Highlights</h5>
+                        <ul>
+                            <li>Android & iOS with MVVM and responsive layouts</li>
+                            <li>Firebase Authentication and secure session handling</li>
+                            <li>Supabase for property data and media storage</li>
+                            <li>Push notifications + deep links to new listings</li>
+                            <li>Favourites and Stripe-powered reservation flow</li>
+                        </ul>
                     </div>
-                    <button class="btn btn-link" expand-more data-target="showMoreContent2" data-showtext="View details" data-hidetext="View less">View details</button>
+
+                    <button class="btn btn-link"
+                            expand-more
+                            data-target="showMoreContent4"
+                            data-showtext="View details"
+                            data-hidetext="View Less">
+                        View Details
+                    </button>
                 </div>
+
                 <div class="portfolio-img" data-aos="fade-left">
                     <div class="img-wrap">
-                        <img src="images/portitem2.jpeg" alt="Amelgo UK website">
+                        <img src="images/portitem2.png" alt="Silks Investments mobile app">
                         <div class="img-overlay">
-                            <a href="https://www.amelgo.co.uk/" target="_blank" rel="noreferrer"><i class="fa fa-external-link-alt"></i></a>
+                            <a href="#" onclick="return false;">
+                                <i class="fas fa-lock"></i>
+                            </a>
                         </div>
                     </div>
+                    <p class="note" style="font-size:0.9rem; color:#a6b0bf; font-style:italic; margin-top:8px;">
+                        *Source code is private to respect client confidentiality.
+                    </p>
                 </div>
             </div>
+
+
 
             <div class="portfolio-item">
                 <div class="portfolio-img" data-aos="fade-right">
                     <div class="img-wrap">
-                        <img src="images/portitem3.jpeg" alt="The Shopper's Card Admin">
+                        <img src="images/portitem3.png" alt="Silks Investments Admin Portal">
                         <div class="img-overlay">
-                            <a href="https://github.com/kayacodes/theshopperscard-admin" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a>
+                            <a href="#" onclick="return false;">
+                                <i class="fas fa-lock"></i>
+                            </a>
                         </div>
                     </div>
+                    <p class="note" style="font-size:0.9rem; color:#a6b0bf; font-style:italic; margin-top:8px;">
+                        *Source code is private to respect client confidentiality.
+                    </p>
                 </div>
+
                 <div class="portfolio-description" data-aos="fade-left">
-                    <h4>The Shopper’s Card — Admin</h4>
-                    <p>Admin utility for retailers to update customer points. Simple, clear controls.</p>
-                    <div class="expandMoreContent" id="showMoreContent3">
-                        <h5>Tech</h5><p>Python (Tkinter), MySQL</p>
-                        <h5>Notes</h5><p>Investigated loyalty-math flows and point reconciliation.</p>
+                    <h4>Silks Investments — Admin Portal</h4>
+                    <p>
+                        A Blazor-based web admin portal built for managing properties, users, and investment data for the
+                        <em>Silks Investments</em> platform. Designed to give administrators full control over property listings,
+                        reservations, and content updates, ensuring a smooth connection between the client-facing app and the
+                        database.
+                    </p>
+
+                    <div class="expandMoreContent" id="showMoreContent5">
+                        <h5>Tech</h5>
+                        <p>Blazor Server (.NET 8), Supabase, Firebase Auth (REST), Azure</p>
+
+                        <h5>Highlights</h5>
+                        <ul>
+                            <li>Implemented admin authentication and role-based access via Firebase Auth REST API</li>
+                            <li>Connected directly to Supabase for property CRUD operations and image management</li>
+                            <li>Integrated Stripe for payment tracking and reservation verification</li>
+                            <li>Added podcast management and push notification features synced with the mobile app</li>
+                            <li>Streamlined admin workflows through clean UI design and real-time updates</li>
+                        </ul>
                     </div>
-                    <button class="btn btn-link" expand-more data-target="showMoreContent3" data-showtext="View details" data-hidetext="View less">View details</button>
+
+                    <button class="btn btn-link"
+                            expand-more
+                            data-target="showMoreContent5"
+                            data-showtext="View details"
+                            data-hidetext="View less">
+                        View details
+                    </button>
                 </div>
             </div>
         </div>
