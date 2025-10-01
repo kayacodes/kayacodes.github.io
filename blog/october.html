@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="What my husband QA’ing my app taught me about feedback, pride, and product ownership." />
+    <title>What My Husband QA’ing My App Taught Me About the Foundations of Our Marriage | Kaya Codes</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+    <style>
+        .blog-post .prose{max-width:820px;margin:0 auto}
+        .blog-post h1{margin-bottom:.6rem}
+        .blog-post h3{margin-top:1.6rem}
+        .blog-post p{margin:.7rem 0}
+        .blog-post ul{padding-left:1.2rem}
+        .blog-post li{margin:.35rem 0}
+        .btn-link{color:#cfe3ff;text-decoration:underline;opacity:.85}
+        .btn-link:hover{opacity:1}
+
+        .meme{margin:1rem auto 1.2rem;max-width:420px;text-align:center}
+        .meme img{width:100%;height:auto;border-radius:12px;border:1px solid var(--glass-border);box-shadow:var(--card-shadow)}
+        .meme figcaption{font-size:.9rem;color:var(--muted);margin-top:.45rem}
+    </style>
+</head>
+<body>
+<div class="starfield" aria-hidden="true">
+    <canvas id="stars"></canvas>
+</div>
+
+<div class="page">
+    <section class="section blog-post">
+        <div class="container" data-aos="fade-up">
+            <div class="prose">
+                <h1>What My Husband QA’ing My App Taught Me About the Foundations of Our Marriage</h1>
+                <p class="date">October 2025</p>
+
+                <p>I asked my husband to test the Silks app I have been building. I thought it would be cute, a little behind the scenes moment where he could see the hours that went in.</p>
+                <p>It took him <em>six seconds</em> to find a bug.</p>
+                <p>Not a crash. Not a broken flow. A spacing issue. Six pixels out. A <strong>P6</strong> if you must label it.</p>
+
+                <figure class="meme" data-aos="zoom-in">
+                    <img src="../images/memes/october_meme.jpg" alt="Meme: QA says 'critical bug' and developer says 'it's a feature'">
+                    <figcaption>Me, briefly: is it appropriate to block your husband?</figcaption>
+                </figure>
+
+                <p>He zoomed in, squinted, and pointed. I felt my stomach drop. My brain started bargaining with reality. Maybe his phone is weird. Maybe he tapped the wrong thing. Then something clicked. He was not trying to tear it down. He was using it like a user. He was noticing the things I had stopped seeing because I knew the happy path by heart.</p>
+
+                <h3>The secret third character: the PO</h3>
+                <p>As a dev, my first instinct is simple. Downgrade it. Six pixels cannot be serious. No user will ever do that exact thing. Ship the big thing and we will circle back.</p>
+                <p>Then the Product Owner voice shows up. What looks small can still change trust. A label that jumps. A button that shivers when the keyboard opens. A total that formats one way in one screen and a different way in another. These do not block a flow, but they do chip away at confidence. If we are asking someone to invest real money in a property, the interface should feel certain. Even the quiet details say “you are safe here.”</p>
+
+                <h3>My emotional sprint retrospective</h3>
+                <p><strong>Stage 1:</strong> denial. “It is fine. Intentional, even.”</p>
+                <p><strong>Stage 2:</strong> bargaining. “Nobody will notice. Let it go. We have bigger things.”</p>
+                <p><strong>Stage 3:</strong> acceptance. “It is off. Fix it.”</p>
+
+                <h3>Why this matters</h3>
+                <ul>
+                    <li><strong>QA is care, not criticism.</strong> The fastest way to grow is to assume the note is a gift.</li>
+                    <li><strong>POs protect the story.</strong> They connect tiny defects to how a customer feels about the brand.</li>
+                    <li><strong>Developers own the follow through.</strong> We choose when to fix, when to defer, and how to prevent repeats. Ownership beats ego.</li>
+                </ul>
+
+                <h3>Takeaways</h3>
+                <ul>
+                    <li>You can be technically right and still miss the human perspective.</li>
+                    <li>The people who spot the small stuff often care the most.</li>
+                    <li>QA and dev can bicker like an old married couple, but both want the same outcome: software that feels solid.</li>
+                    <li>When your pride says “downgrade,” ask one more question. What does this detail teach the user to believe about us?</li>
+                </ul>
+
+                <p>We still joke about those six pixels. I fixed it, and the whole card felt steadier. A few minutes later he found something else. I did not spiral. That note meant someone was paying attention, and that is exactly what you want from a QA and a partner.</p>
+
+                <p style="margin-top:2rem"><a href="../index.html#blog" class="btn-link">← Back to Blog</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="copyright">
+        <button class="to-top" id="up" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+        <p>© <span id="year"></span> Rookaya Dokrat</p>
+    </footer>
+</div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="../main.js"></script>
+</body>
+</html>
