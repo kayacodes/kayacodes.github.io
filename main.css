@@ -179,8 +179,50 @@ img{ max-width:100%; display:block; border-radius:12px; }
 /* About */
 .profile-img img{ box-shadow: var(--card-shadow); }
 .social{ display:flex; gap:16px; list-style:none; padding:0; margin:14px 0 0; }
-.social a{ font-size:28px; color:#cfe3ff; opacity:.9; }
+.social a{ font-size:24px; color:#cfe3ff; opacity:.9; }
 .social a:hover{ color:#e9d1ff; }
+.btn-cv {
+    margin-top: 2px; 
+}
+.social .btn-cv {
+    font-size: 0.8rem;
+}
+
+.btn-cv {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    height: 30px;
+    padding: 0 12px;
+    border-radius: 999px;
+    background: radial-gradient(80% 120% at 20% 0%, rgba(34,211,238,.25), transparent 60%),
+    radial-gradient(80% 120% at 80% 0%, rgba(138,33,178,.25), transparent 60%),
+    linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.04));
+    border: 1px solid var(--glass-border);
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.85rem;
+    line-height: 1;          
+    box-shadow: var(--card-shadow);
+    transition: transform var(--fast) var(--easing), border-color var(--fast), background var(--fast);
+    vertical-align: middle;    
+    transform: translateY(2px); 
+}
+
+.btn-cv:hover {
+    transform: translateY(1px);
+    border-color: rgba(255,255,255,.35);
+}
+
+.btn-cv i {
+    font-size: 15px;
+    color: #a6dfff;
+    transform: translateY(-1px); 
+}
+
+
 
 /* Services */
 .cards{
