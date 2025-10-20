@@ -385,6 +385,9 @@ input:focus, textarea:focus{ outline:2px solid rgba(138,33,178,.45); outline-off
 }
 
 .blog-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     flex: 0 1 320px;
     background: var(--glass);
     border: 1px solid var(--glass-border);
@@ -393,7 +396,9 @@ input:focus, textarea:focus{ outline:2px solid rgba(138,33,178,.45); outline-off
     box-shadow: var(--card-shadow);
     transition: transform var(--fast) var(--easing);
     text-align: left;
+    min-height: 260px; /* optional - makes all cards consistent */
 }
+
 
 .blog-card:hover {
     transform: translateY(-2px);
